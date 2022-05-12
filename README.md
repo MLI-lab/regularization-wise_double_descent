@@ -22,3 +22,17 @@ The figures in the paper can be reproduced by running the respective notebooks a
 **Figure 3, 4**: Regularization-wise double descent for the two layer neural network and the norm of the change in the parameters of the two layer network relevant and non-relevant to fitting the data can be reproduced by running the `two-layer-nn_regularization-wise_double_descent` notebook. 
 
 The numerical results can be reproduced by training the models with `python3 train_<SETTING>.py --config $CONFIG_FILE` where `CONFIG_FILE` points to the `config.json` file of the desired setup in the `./results/` directory.
+
+## Citation
+```
+@inproceedings{yilmaz_heckel_2022,
+    author    = {Fatih Furkan Yilmaz and Reinhard Heckel},
+    title     = {Regularization-wise double descent: Why it occurs and how to eliminate it},
+    booktitle = {IEEE International Symposium on Information Theory (ISIT)}
+    year      = {2022}
+}
+```
+
+## Licence
+
+All files are provided under the terms of the Apache License, Version 2.0.
