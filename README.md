@@ -1,6 +1,8 @@
 # Regularization-wise double descent
 This repository contains the code for reproducing figures and results in the paper ``Regularization-wise double descent: Why it occurs and how to eliminate it''.
 
+**Note:** Proof of theoretical results and additional numerical experiments are provided [here](appendix.pdf).
+
 # Requirements
 The following Python libraries are required to run the code in this repository:
 
